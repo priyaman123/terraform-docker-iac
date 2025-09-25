@@ -1,0 +1,19 @@
+> terraform init
+Initializing provider plugins...
+...
+Success! Terraform has been successfully initialized!
+
+> terraform plan
+Plan: 2 to add, 0 to change, 0 to destroy.
+...
+> terraform apply
+Enter a value: yes
+...
+> terraform state list
+docker_image.nginx_image
+docker_container.nginx_container
+
+> terraform destroy
+Enter a value: yes
+...
+Destroy complete!
